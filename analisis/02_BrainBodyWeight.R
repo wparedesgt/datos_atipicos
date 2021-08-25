@@ -21,3 +21,4 @@ plotbb <- function(bbdat) {
 }
 
 plotbb(Animals)
+

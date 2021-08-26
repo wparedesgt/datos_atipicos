@@ -1,4 +1,6 @@
 library(Rmisc)
+library(tidyverse)
+library(mrfDepth)
 
 #outliers ejemplos 
 
@@ -50,6 +52,7 @@ cil2
 
 ejemplo01 <- c(1:5)
 ejemplo02 <- c(1:4, 50)
+ejemplo03 <- c(2,2,4,7,15)
 
 mean(ejemplo01)
 mean(ejemplo02)
@@ -60,3 +63,33 @@ median(ejemplo02)
 range(ejemplo01)
 rank(ejemplo01)
 rank(ejemplo02)
+
+
+#Varianza y desviación standard
+
+var(ejemplo01)
+var(ejemplo02)
+sd(ejemplo01)
+sd(ejemplo02)
+
+#Median Absolute Desviation
+
+mad(ejemplo01)
+mad(ejemplo02)
+
+#Ejemplos
+
+ejemplo04 <- c(1:7, 10,15,16)
+
+median(ejemplo04)
+medcouple(ejemplo04) #Sacando la MedCouple
+
+#Vemos el ejemplo
+
+medcouple(ejemplo01) #Normal
+medcouple(ejemplo02) # Es robusta sigue marcando 0
+
+#Coeficiente de asimetria
+
+
+

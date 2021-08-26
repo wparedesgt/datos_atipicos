@@ -56,3 +56,7 @@ mean(ejemplo02)
 
 median(ejemplo01)
 median(ejemplo02)
+
+range(ejemplo01)
+rank(ejemplo01)
+rank(ejemplo02)

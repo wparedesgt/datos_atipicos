@@ -10,5 +10,6 @@ mean(ejemplo02)
 
 #Mediana
 
-mean(ejemplo01)
-mean(ejemplo02)
+median(ejemplo01)
+median(ejemplo02)
+

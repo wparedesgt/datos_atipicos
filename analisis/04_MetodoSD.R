@@ -17,3 +17,4 @@ sd(Ejemplo06)
 
 boxplot(Ejemplo05)
 boxplot(Ejemplo06)
+

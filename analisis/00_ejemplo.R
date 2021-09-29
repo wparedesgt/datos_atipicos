@@ -3,5 +3,5 @@
 library(usethis)
 
 usethis::use_git_config(user.name = "wparedesgt", user.email = "wparedesgt@gmail.com")
-credentials::set_github_pat("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")
+credentials::set_github_pat("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")
 usethis::git_sitrep()

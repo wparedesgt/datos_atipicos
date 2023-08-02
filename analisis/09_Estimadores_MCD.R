@@ -21,6 +21,8 @@ library(mixtools)
 ellipse(mu = clcenter, sigma = clcov, alpha = 0.025, col = "blue", lty = 2)
 
 
+#Hola 
+
 #Estimadores MCD
 
 library(robustbase)
